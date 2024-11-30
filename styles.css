@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #33a8ae;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #04939b;
+    color: #000000;
+    padding: 10px 20px;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+span{
+    font-size: 40px;
+}
+.navbar .logo img {
+    height: 70px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navbar .links a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 20px 40px;
+}
+
+.navbar .links a:hover {
+    background-color: #03a5ad;
+    border-radius: 5px;
+}
+
+.links {
+    font-size: 20px;
+}
+
+
+.center-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+}
+.btn-descargar {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; 
+    height: auto; 
+    max-width: 300px; 
+}
+
+.btn-descargar:hover {
+    background-color: #0056b3;
+}

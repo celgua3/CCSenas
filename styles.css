@@ -43,6 +43,9 @@ span{
     margin: 0 10px;
     padding: 20px 40px;
 }
+.navbar .links{
+    margin-right: 80px;
+}
 
 .navbar .links a:hover {
     background-color: #03a5ad;
@@ -61,7 +64,9 @@ span{
     height: 100vh;           
 }
 .btn-descargar {
+    
     padding: 15px 30px;
+    margin-top: -300px;
     background-color: #007BFF;
     color: white;
     text-decoration: none;
@@ -78,4 +83,55 @@ span{
 
 .btn-descargar:hover {
     background-color: #0056b3;
+}
+h1{
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 35px;
+}
+h2{
+    margin-left: 40px;
+    font-size: 28px;
+}
+.texto_contacto{
+    margin-left: 40px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.texto_inicio{
+    margin-left: 40px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.imagen-app {
+    width: 500px;
+    height: auto;
+    margin-left: 40px;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+h3{
+    text-align: center;
+}
+.h2_descargar{
+    margin-top: 100px;
+    text-align: center;
+}
+.texto_descargar{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+span{
+    text-decoration: none;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,147 +7,22 @@
     <title>Contacto</title>
 </head>
 <body>
-     <style>body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #33a8ae;
-        height: 100vh; 
-        display: flex;
-        flex-direction: column; 
-    }
-    
-    
-    .navbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #04939b;
-        color: #000000;
-        padding: 10px 20px;
-        position: fixed; 
-        top: 0;
-        width: 100%; 
-        z-index: 1000; 
-    }
-    
-    
-    .navbar .logo {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-    }
-    span{
-        font-size: 40px;
-    }
-    .navbar .logo img {
-        height: 70px;
-        margin-right: 10px;
-        cursor: pointer;
-    }
-    
-    .navbar .links a {
-        color: #000000;
-        text-decoration: none;
-        margin: 0 10px;
-        padding: 20px 40px;
-    }
-    .navbar .links{
-        margin-right: 80px;
-    }
-    
-    .navbar .links a:hover {
-        background-color: #03a5ad;
-        border-radius: 5px;
-    }
-    
-    .links {
-        font-size: 20px;
-    }
-    
-    
-    .center-container {
-        display: flex;
-        justify-content: center; 
-        align-items: center;     
-        height: 100vh;           
-    }
-    .btn-descargar {
-        
-        padding: 15px 30px;
-        margin-top: -300px;
-        background-color: #007BFF;
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        font-size: 18px;
-        text-align: center;
-        border: none;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        width: auto; 
-        height: auto; 
-        max-width: 300px; 
-    }
-    
-    .btn-descargar:hover {
-        background-color: #0056b3;
-    }
-    h1{
-        margin-top: 100px;
-        margin-left: 40px;
-        font-size: 35px;
-    }
-    h2{
-        margin-left: 40px;
-        font-size: 28px;
-    }
-    .texto_contacto{
-        margin-left: 40px;
-        margin-right: 100px;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .texto_inicio{
-        margin-left: 40px;
-        margin-right: 100px;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    .imagenes {
-        display: flex;
-        justify-content: center;
-        margin-top: 30px;
-    }
-    .imagen-app {
-        width: 500px;
-        height: auto;
-        margin-left: 40px;
-        border-radius: 5px; 
-        margin-bottom: 20px;
-    }
-    h3{
-        text-align: center;
-    }
-    .h2_descargar{
-        margin-top: 100px;
-        text-align: center;
-    }
-    .texto_descargar{
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-    }
-    a{
-        text-decoration: none;
-    }
-    span{
-        text-decoration: none;
-    }</style>
     <div class="navbar">
         <a href="index.html" class="logo">
             <img src="logo.png" alt="Logo">
             <span>CCSeñas</span>
         </a>
+        <div class="hamburger-menu-nav">
+            <input id="menu__toggle-nav" type="checkbox" />
+            <label class="menu__btn-nav" for="menu__toggle-nav">
+                <span></span>
+            </label>
+            <ul class="menu__box-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="descargar.html">Descargar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
         <div class="links">
             <a href="index.html">Inicio</a>
             <a href="descargar.html">Descargar</a>
@@ -158,12 +33,10 @@
     <h1>Contáctanos</h1>
     <p class="texto_contacto">¿Tienes preguntas, comentarios o necesitas ayuda? ¡Estamos aquí para ti! Ponte en contacto con nosotros de la manera que más te convenga:</p>
     
-    <h2>📲 Instagram</h2>
-    <p class="texto_contacto">Síguenos en <a href="https://www.instagram.com/ccsenas" target="_blank">@ccsenas</a> para enterarte de las últimas 
-        novedades, contenido exclusivo y actualizaciones importantes. Si tienes alguna duda, no dudes en enviarnos un mensaje directo (DM). Nuestro equipo estará encantado de responderte lo antes posible.</p>
+    <h2> Instagram</h2>
+    <p class="texto_contacto">Síguenos en <a href="https://www.instagram.com/ccsenas" target="_blank">@ccsenas</a> para enterarte de las últimas novedades, contenido exclusivo y actualizaciones importantes. Si tienes alguna duda, no dudes en enviarnos un mensaje directo (DM). Nuestro equipo estará encantado de responderte lo antes posible.</p>
     
-    <h2>📩 Correo Electrónico</h2>
-    <p class="texto_contacto">¿Prefieres escribirnos? Envíanos un correo a <a href="https://mail.google.com/mail/?view=cm&to=ccsenasteam@gmail.com"target="_blank">ccsenasteam@gmail.com</a> y cuéntanos
-        cómo podemos ayudarte. Revisamos cada mensaje con atención y nos esforzamos por responder rápidamente.</p>
+    <h2> Correo Electrónico</h2>
+    <p class="texto_contacto">¿Prefieres escribirnos? Envíanos un correo a <a href="mailto:ccsenasteam@gmail.com">ccsenasteam@gmail.com</a> y cuéntanos cómo podemos ayudarte. Revisamos cada mensaje con atención y nos esforzamos por responder rápidamente.</p>
 </body>
 </html>
